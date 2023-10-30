@@ -1,0 +1,56 @@
+body {
+    font-size: 1.3rem;
+}
+#contenitorePagina {
+    border: 3px solid red;
+    background-color: #666;
+    width: 80vw;
+    padding: 50px;
+}
+
+header {
+    background-color: beige;
+}
+header nav ul li {
+    display: inline-block;
+    background-color: aquamarine;
+    margin-right: 20px;
+    width: 30%;
+}
+header nav a {
+    color: darkred;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(226, 197, 200);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header nav a:hover {
+    color: azure;
+    background-color: blue;
+}
+
+main {
+    background-color: rgba(239, 169, 143, 0.504);
+}
+
+aside {
+    background-color: darkseagreen;
+}
+
+footer {
+    background-color: lightgrey;
+}
+ul li {
+    list-style-type: none;
+}
+main ul li::before {
+    content: "|| ";
+}
+
+dl {
+    background-color: gray;
+    border-left: 5px solid black;
+}
